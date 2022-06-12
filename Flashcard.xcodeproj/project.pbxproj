@@ -13,6 +13,20 @@
 		486D75E427035F8E004DE68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486D75E227035F8E004DE68E /* Main.storyboard */; };
 		486D75E627035F90004DE68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486D75E527035F90004DE68E /* Assets.xcassets */; };
 		486D75E927035F90004DE68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486D75E727035F90004DE68E /* LaunchScreen.storyboard */; };
+		486F79D62739E57E003A4DC5 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F79D52739E57E003A4DC5 /* WordViewController.swift */; };
+		486F79D82739E5F8003A4DC5 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F79D72739E5F8003A4DC5 /* ScoreViewController.swift */; };
+		486F79DA2739F49C003A4DC5 /* words.csv in Resources */ = {isa = PBXBuildFile; fileRef = 486F79D92739F49C003A4DC5 /* words.csv */; };
+		4893291A273F59D800D1DA1F /* CheckWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48932919273F59D800D1DA1F /* CheckWordViewController.swift */; };
+		48FF1E482771AED1008CE593 /* wordsA.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E472771AED1008CE593 /* wordsA.csv */; };
+		48FF1E4A2771AFB8008CE593 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF1E492771AFB8008CE593 /* SettingViewController.swift */; };
+		48FF1E4E2771BEAB008CE593 /* wordsA1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E4D2771BEAB008CE593 /* wordsA1.csv */; };
+		48FF1E502771BEC6008CE593 /* wordsA2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E4F2771BEC6008CE593 /* wordsA2.csv */; };
+		48FF1E522771BED5008CE593 /* wordsA3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E512771BED5008CE593 /* wordsA3.csv */; };
+		48FF1E542771BEEA008CE593 /* wordsA4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E532771BEEA008CE593 /* wordsA4.csv */; };
+		48FF1E562771BEF7008CE593 /* wordsB1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E552771BEF7008CE593 /* wordsB1.csv */; };
+		48FF1E582771BF25008CE593 /* wordsB2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E572771BF25008CE593 /* wordsB2.csv */; };
+		48FF1E5A2771BF35008CE593 /* wordsB3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E592771BF35008CE593 /* wordsB3.csv */; };
+		48FF1E5C2771BF40008CE593 /* wordsB4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E5B2771BF40008CE593 /* wordsB4.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		486D75E527035F90004DE68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486D75E827035F90004DE68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486D75EA27035F90004DE68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486F79D52739E57E003A4DC5 /* WordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		486F79D72739E5F8003A4DC5 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		486F79D92739F49C003A4DC5 /* words.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = words.csv; sourceTree = "<group>"; };
+		48932919273F59D800D1DA1F /* CheckWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckWordViewController.swift; sourceTree = "<group>"; };
+		48FF1E472771AED1008CE593 /* wordsA.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsA.csv; sourceTree = "<group>"; };
+		48FF1E492771AFB8008CE593 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		48FF1E4D2771BEAB008CE593 /* wordsA1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsA1.csv; sourceTree = "<group>"; };
+		48FF1E4F2771BEC6008CE593 /* wordsA2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsA2.csv; sourceTree = "<group>"; };
+		48FF1E512771BED5008CE593 /* wordsA3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsA3.csv; sourceTree = "<group>"; };
+		48FF1E532771BEEA008CE593 /* wordsA4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsA4.csv; sourceTree = "<group>"; };
+		48FF1E552771BEF7008CE593 /* wordsB1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsB1.csv; sourceTree = "<group>"; };
+		48FF1E572771BF25008CE593 /* wordsB2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsB2.csv; sourceTree = "<group>"; };
+		48FF1E592771BF35008CE593 /* wordsB3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsB3.csv; sourceTree = "<group>"; };
+		48FF1E5B2771BF40008CE593 /* wordsB4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsB4.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +84,27 @@
 		486D75DB27035F8E004DE68E /* Flashcard */ = {
 			isa = PBXGroup;
 			children = (
+				486F79D92739F49C003A4DC5 /* words.csv */,
+				48FF1E472771AED1008CE593 /* wordsA.csv */,
+				48FF1E4D2771BEAB008CE593 /* wordsA1.csv */,
+				48FF1E4F2771BEC6008CE593 /* wordsA2.csv */,
+				48FF1E512771BED5008CE593 /* wordsA3.csv */,
+				48FF1E532771BEEA008CE593 /* wordsA4.csv */,
+				48FF1E552771BEF7008CE593 /* wordsB1.csv */,
+				48FF1E572771BF25008CE593 /* wordsB2.csv */,
+				48FF1E592771BF35008CE593 /* wordsB3.csv */,
+				48FF1E5B2771BF40008CE593 /* wordsB4.csv */,
+				486D75EA27035F90004DE68E /* Info.plist */,
 				486D75DC27035F8E004DE68E /* AppDelegate.swift */,
+				48932919273F59D800D1DA1F /* CheckWordViewController.swift */,
 				486D75DE27035F8E004DE68E /* SceneDelegate.swift */,
+				486F79D72739E5F8003A4DC5 /* ScoreViewController.swift */,
+				48FF1E492771AFB8008CE593 /* SettingViewController.swift */,
 				486D75E027035F8E004DE68E /* ViewController.swift */,
-				486D75E227035F8E004DE68E /* Main.storyboard */,
+				486F79D52739E57E003A4DC5 /* WordViewController.swift */,
 				486D75E527035F90004DE68E /* Assets.xcassets */,
 				486D75E727035F90004DE68E /* LaunchScreen.storyboard */,
-				486D75EA27035F90004DE68E /* Info.plist */,
+				486D75E227035F8E004DE68E /* Main.storyboard */,
 			);
 			path = Flashcard;
 			sourceTree = "<group>";
@@ -125,9 +167,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48FF1E522771BED5008CE593 /* wordsA3.csv in Resources */,
+				48FF1E5A2771BF35008CE593 /* wordsB3.csv in Resources */,
 				486D75E927035F90004DE68E /* LaunchScreen.storyboard in Resources */,
 				486D75E627035F90004DE68E /* Assets.xcassets in Resources */,
+				486F79DA2739F49C003A4DC5 /* words.csv in Resources */,
+				48FF1E542771BEEA008CE593 /* wordsA4.csv in Resources */,
+				48FF1E562771BEF7008CE593 /* wordsB1.csv in Resources */,
+				48FF1E502771BEC6008CE593 /* wordsA2.csv in Resources */,
 				486D75E427035F8E004DE68E /* Main.storyboard in Resources */,
+				48FF1E5C2771BF40008CE593 /* wordsB4.csv in Resources */,
+				48FF1E582771BF25008CE593 /* wordsB2.csv in Resources */,
+				48FF1E4E2771BEAB008CE593 /* wordsA1.csv in Resources */,
+				48FF1E482771AED1008CE593 /* wordsA.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +192,11 @@
 			files = (
 				486D75E127035F8E004DE68E /* ViewController.swift in Sources */,
 				486D75DD27035F8E004DE68E /* AppDelegate.swift in Sources */,
+				486F79D82739E5F8003A4DC5 /* ScoreViewController.swift in Sources */,
+				486F79D62739E57E003A4DC5 /* WordViewController.swift in Sources */,
 				486D75DF27035F8E004DE68E /* SceneDelegate.swift in Sources */,
+				48FF1E4A2771AFB8008CE593 /* SettingViewController.swift in Sources */,
+				4893291A273F59D800D1DA1F /* CheckWordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +353,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +382,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
