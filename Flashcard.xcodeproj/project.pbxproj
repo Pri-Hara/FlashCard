@@ -15,9 +15,7 @@
 		486D75E927035F90004DE68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486D75E727035F90004DE68E /* LaunchScreen.storyboard */; };
 		486F79D62739E57E003A4DC5 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F79D52739E57E003A4DC5 /* WordViewController.swift */; };
 		486F79D82739E5F8003A4DC5 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F79D72739E5F8003A4DC5 /* ScoreViewController.swift */; };
-		486F79DA2739F49C003A4DC5 /* words.csv in Resources */ = {isa = PBXBuildFile; fileRef = 486F79D92739F49C003A4DC5 /* words.csv */; };
 		4893291A273F59D800D1DA1F /* CheckWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48932919273F59D800D1DA1F /* CheckWordViewController.swift */; };
-		48FF1E482771AED1008CE593 /* wordsA.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E472771AED1008CE593 /* wordsA.csv */; };
 		48FF1E4A2771AFB8008CE593 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF1E492771AFB8008CE593 /* SettingViewController.swift */; };
 		48FF1E4E2771BEAB008CE593 /* wordsA1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E4D2771BEAB008CE593 /* wordsA1.csv */; };
 		48FF1E502771BEC6008CE593 /* wordsA2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 48FF1E4F2771BEC6008CE593 /* wordsA2.csv */; };
@@ -40,9 +38,7 @@
 		486D75EA27035F90004DE68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		486F79D52739E57E003A4DC5 /* WordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
 		486F79D72739E5F8003A4DC5 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		486F79D92739F49C003A4DC5 /* words.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = words.csv; sourceTree = "<group>"; };
 		48932919273F59D800D1DA1F /* CheckWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckWordViewController.swift; sourceTree = "<group>"; };
-		48FF1E472771AED1008CE593 /* wordsA.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsA.csv; sourceTree = "<group>"; };
 		48FF1E492771AFB8008CE593 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		48FF1E4D2771BEAB008CE593 /* wordsA1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsA1.csv; sourceTree = "<group>"; };
 		48FF1E4F2771BEC6008CE593 /* wordsA2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordsA2.csv; sourceTree = "<group>"; };
@@ -84,8 +80,6 @@
 		486D75DB27035F8E004DE68E /* Flashcard */ = {
 			isa = PBXGroup;
 			children = (
-				486F79D92739F49C003A4DC5 /* words.csv */,
-				48FF1E472771AED1008CE593 /* wordsA.csv */,
 				48FF1E4D2771BEAB008CE593 /* wordsA1.csv */,
 				48FF1E4F2771BEC6008CE593 /* wordsA2.csv */,
 				48FF1E512771BED5008CE593 /* wordsA3.csv */,
@@ -171,7 +165,6 @@
 				48FF1E5A2771BF35008CE593 /* wordsB3.csv in Resources */,
 				486D75E927035F90004DE68E /* LaunchScreen.storyboard in Resources */,
 				486D75E627035F90004DE68E /* Assets.xcassets in Resources */,
-				486F79DA2739F49C003A4DC5 /* words.csv in Resources */,
 				48FF1E542771BEEA008CE593 /* wordsA4.csv in Resources */,
 				48FF1E562771BEF7008CE593 /* wordsB1.csv in Resources */,
 				48FF1E502771BEC6008CE593 /* wordsA2.csv in Resources */,
@@ -179,7 +172,6 @@
 				48FF1E5C2771BF40008CE593 /* wordsB4.csv in Resources */,
 				48FF1E582771BF25008CE593 /* wordsB2.csv in Resources */,
 				48FF1E4E2771BEAB008CE593 /* wordsA1.csv in Resources */,
-				48FF1E482771AED1008CE593 /* wordsA.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
